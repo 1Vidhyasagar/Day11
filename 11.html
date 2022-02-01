@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>All types of Input element</h3>
+    <form method="post">
+<!-- Input type text  -->
+       <label>First name: 
+        <input type="text" id="fname" name="fname" placeholder="First name" required/>
+       </label>
+        
+            <label>Last name:
+            <input type="text" id="lname" name="lname" placeholder="Last name" required>
+            </label>
+            <br>
+<!-- Input type number -->
+            <lable>Age<input type="number" name="age" placeholder="Enter Your age" min="18" max="110" /></lable>
+            <br>
+<!-- Input type email -->
+            <label for="email">Email address:</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+<!-- Input type password -->
+            <label>Password: <input type="password" name="password" id="password" placeholder="Enter your password" required/></label>
+
+<!-- Input type hidden -->
+            <input type="hidden" name="some-hidden-field" value="some-value">
+            <br>
+<!-- Input type Upload -->
+            <input type="file" name="upload" id="upload" >
+<!-- Input type submit -->
+            <br>
+            <input type="submit" value="Submit">
+<br> <br>
+<!-- All input types as follows -->
+          <input type="button" value='click me'>
+          <input type="checkbox" name='color' value='red'/>
+          <input type="checkbox" name="color" value="yellow">
+          <input type="color" name='choose color'>
+          <input type="date" name='choose-date' >
+          <input type="datetime" name='choose-datetime'>
+          <input type="datetime-local" name='choose-datetime-local'>
+          <br>
+          <input type="image" src="chrome://branding/content/firefox-wordmark.svg" alt="Submit">
+          <input type="month" name='choose'placeholder='Choose a month'>
+<p>Gender<label>
+          <input type="radio" name='gender' value='male'>Male</label>
+   <label><input type="radio" name='gender' value='female'>Female</label></p>
+              <br>
+   <label> Volume (0 to 100) 
+          <input type="range" name='vol' min='0' max='100'></label>
+              <br>
+          <input type="reset" >
+   <label> Google search
+          <input type="search"> </lable> <br>
+   <label> phone no.
+          <input type="tel" name='phone'pattern='[0-9]{10}'></label> <br>
+   <label> select time
+          <input type="time" name='time'></label> <br>
+   <label> add url
+          <input type="url" name='homepage'></label><br>
+   <label> select week
+          <input type="week" name='week'></label>
+          
+
+    </form>
+</body>
+</html>
